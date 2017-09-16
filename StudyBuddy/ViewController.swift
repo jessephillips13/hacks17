@@ -3,7 +3,7 @@
 //  StudyBuddy
 //
 //  Created by Jesse Phillips on 9/16/17.
-//  Copyright © 2017 Jesse Phillips. All rights reserved.
+//  Copyright © 2017 Jessie Phillips. All rights reserved.
 //
 
 import UIKit
