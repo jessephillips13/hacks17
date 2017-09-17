@@ -101,6 +101,9 @@
                                 <rect key="frame" x="109" y="586" width="157" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Save Event"/>
+                                <connections>
+                                    <segue destination="BeA-Rz-Fha" kind="show" id="jc3-DZ-gNM"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -193,4 +196,7 @@
             <point key="canvasLocation" x="-338" y="92"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="jc3-DZ-gNM"/>
+    </inferredMetricsTieBreakers>
 </document>
