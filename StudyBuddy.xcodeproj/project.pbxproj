@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5604E26CBFA304D9124E7F8F /* Pods_StudyBuddyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CBE8257C32E109A8733008 /* Pods_StudyBuddyTests.framework */; };
+		64890AC5DBFF0073C457BEC2 /* Pods_StudyBuddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41B8D2B168D634A7D2186850 /* Pods_StudyBuddy.framework */; };
+		A0191F5BA9A127398E5D5CB2 /* Pods_StudyBuddyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1756FF6C4205DBF4E8D968EB /* Pods_StudyBuddyUITests.framework */; };
+		B9DC92661F6E109900150E05 /* invokeDynamoDb.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DC92651F6E109900150E05 /* invokeDynamoDb.swift */; };
+		B9DC92691F6E11E000150E05 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DC92671F6E11E000150E05 /* Events.swift */; };
+		B9DC926A1F6E11E000150E05 /* UserList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DC92681F6E11E000150E05 /* UserList.swift */; };
+		B9DC926C1F6E123500150E05 /* SetEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DC926B1F6E123500150E05 /* SetEvent.swift */; };
+		B9EEA6021F6E07B90083A2F5 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = B9EEA6011F6E07B90083A2F5 /* awsconfiguration.json */; };
 		FB2175A81F6DD5B0005C4004 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2175A71F6DD5B0005C4004 /* AppDelegate.swift */; };
 		FB2175AA1F6DD5B0005C4004 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2175A91F6DD5B0005C4004 /* ViewController.swift */; };
 		FB2175AD1F6DD5B0005C4004 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB2175AB1F6DD5B0005C4004 /* Main.storyboard */; };
@@ -34,6 +42,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1756FF6C4205DBF4E8D968EB /* Pods_StudyBuddyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StudyBuddyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41B8D2B168D634A7D2186850 /* Pods_StudyBuddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StudyBuddy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69CBE8257C32E109A8733008 /* Pods_StudyBuddyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StudyBuddyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77941D7CAB6665A252BA4774 /* Pods-StudyBuddyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyBuddyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StudyBuddyUITests/Pods-StudyBuddyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AF596C758C422478E3EBA88D /* Pods-StudyBuddyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyBuddyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StudyBuddyTests/Pods-StudyBuddyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B86B585AE2D95D506326F3AC /* Pods-StudyBuddyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyBuddyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StudyBuddyUITests/Pods-StudyBuddyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B9DC92651F6E109900150E05 /* invokeDynamoDb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = invokeDynamoDb.swift; sourceTree = "<group>"; };
+		B9DC92671F6E11E000150E05 /* Events.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		B9DC92681F6E11E000150E05 /* UserList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserList.swift; sourceTree = "<group>"; };
+		B9DC926B1F6E123500150E05 /* SetEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetEvent.swift; sourceTree = "<group>"; };
+		B9EEA6011F6E07B90083A2F5 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		C240DFE05F17D64F79A4200C /* Pods-StudyBuddy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyBuddy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StudyBuddy/Pods-StudyBuddy.debug.xcconfig"; sourceTree = "<group>"; };
+		D4494ED985E78E9ACE7078DE /* Pods-StudyBuddyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyBuddyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StudyBuddyTests/Pods-StudyBuddyTests.release.xcconfig"; sourceTree = "<group>"; };
 		FB2175A41F6DD5B0005C4004 /* StudyBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB2175A71F6DD5B0005C4004 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB2175A91F6DD5B0005C4004 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +68,7 @@
 		FB2175C31F6DD5B0005C4004 /* StudyBuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudyBuddyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB2175C71F6DD5B0005C4004 /* StudyBuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyBuddyUITests.swift; sourceTree = "<group>"; };
 		FB2175C91F6DD5B0005C4004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBE73B52A2164FD73F96DB18 /* Pods-StudyBuddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyBuddy.release.xcconfig"; path = "Pods/Target Support Files/Pods-StudyBuddy/Pods-StudyBuddy.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64890AC5DBFF0073C457BEC2 /* Pods_StudyBuddy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5604E26CBFA304D9124E7F8F /* Pods_StudyBuddyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +92,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0191F5BA9A127398E5D5CB2 /* Pods_StudyBuddyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		72A72C90E0EABC39546F045B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C240DFE05F17D64F79A4200C /* Pods-StudyBuddy.debug.xcconfig */,
+				FBE73B52A2164FD73F96DB18 /* Pods-StudyBuddy.release.xcconfig */,
+				AF596C758C422478E3EBA88D /* Pods-StudyBuddyTests.debug.xcconfig */,
+				D4494ED985E78E9ACE7078DE /* Pods-StudyBuddyTests.release.xcconfig */,
+				77941D7CAB6665A252BA4774 /* Pods-StudyBuddyUITests.debug.xcconfig */,
+				B86B585AE2D95D506326F3AC /* Pods-StudyBuddyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D4882C323D49052345EE8FF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41B8D2B168D634A7D2186850 /* Pods_StudyBuddy.framework */,
+				69CBE8257C32E109A8733008 /* Pods_StudyBuddyTests.framework */,
+				1756FF6C4205DBF4E8D968EB /* Pods_StudyBuddyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FB21759B1F6DD5AF005C4004 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +129,8 @@
 				FB2175BB1F6DD5B0005C4004 /* StudyBuddyTests */,
 				FB2175C61F6DD5B0005C4004 /* StudyBuddyUITests */,
 				FB2175A51F6DD5B0005C4004 /* Products */,
+				72A72C90E0EABC39546F045B /* Pods */,
+				D4882C323D49052345EE8FF5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +148,16 @@
 			isa = PBXGroup;
 			children = (
 				FB2175A71F6DD5B0005C4004 /* AppDelegate.swift */,
+				B9DC926B1F6E123500150E05 /* SetEvent.swift */,
+				B9DC92671F6E11E000150E05 /* Events.swift */,
+				B9DC92681F6E11E000150E05 /* UserList.swift */,
 				FB2175A91F6DD5B0005C4004 /* ViewController.swift */,
 				FB2175AB1F6DD5B0005C4004 /* Main.storyboard */,
 				FB2175AE1F6DD5B0005C4004 /* Assets.xcassets */,
 				FB2175B01F6DD5B0005C4004 /* LaunchScreen.storyboard */,
 				FB2175B31F6DD5B0005C4004 /* Info.plist */,
+				B9EEA6011F6E07B90083A2F5 /* awsconfiguration.json */,
+				B9DC92651F6E109900150E05 /* invokeDynamoDb.swift */,
 			);
 			path = StudyBuddy;
 			sourceTree = "<group>";
@@ -132,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB2175CC1F6DD5B0005C4004 /* Build configuration list for PBXNativeTarget "StudyBuddy" */;
 			buildPhases = (
+				1ED3EB3578CF8182A848E345 /* [CP] Check Pods Manifest.lock */,
 				FB2175A01F6DD5B0005C4004 /* Sources */,
 				FB2175A11F6DD5B0005C4004 /* Frameworks */,
 				FB2175A21F6DD5B0005C4004 /* Resources */,
+				38522B78F0C6955F9B418EDB /* [CP] Embed Pods Frameworks */,
+				E5FDFBA09587F94A5775702E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB2175CF1F6DD5B0005C4004 /* Build configuration list for PBXNativeTarget "StudyBuddyTests" */;
 			buildPhases = (
+				4192F9A17A7A8E4437548919 /* [CP] Check Pods Manifest.lock */,
 				FB2175B41F6DD5B0005C4004 /* Sources */,
 				FB2175B51F6DD5B0005C4004 /* Frameworks */,
 				FB2175B61F6DD5B0005C4004 /* Resources */,
+				FEFBB107A95E9BDBA5707683 /* [CP] Embed Pods Frameworks */,
+				D25DFFDF4A2EA45E406C5570 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB2175D21F6DD5B0005C4004 /* Build configuration list for PBXNativeTarget "StudyBuddyUITests" */;
 			buildPhases = (
+				F0B93D27BDA31DFF5C9CB511 /* [CP] Check Pods Manifest.lock */,
 				FB2175BF1F6DD5B0005C4004 /* Sources */,
 				FB2175C01F6DD5B0005C4004 /* Frameworks */,
 				FB2175C11F6DD5B0005C4004 /* Resources */,
+				2B8CD8C2A35B7D7C0AEEC047 /* [CP] Embed Pods Frameworks */,
+				6AC2051B46E5567B2C060639 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,6 +299,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9EEA6021F6E07B90083A2F5 /* awsconfiguration.json in Resources */,
 				FB2175B21F6DD5B0005C4004 /* LaunchScreen.storyboard in Resources */,
 				FB2175AF1F6DD5B0005C4004 /* Assets.xcassets in Resources */,
 				FB2175AD1F6DD5B0005C4004 /* Main.storyboard in Resources */,
@@ -257,11 +322,169 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1ED3EB3578CF8182A848E345 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StudyBuddy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B8CD8C2A35B7D7C0AEEC047 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StudyBuddyUITests/Pods-StudyBuddyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38522B78F0C6955F9B418EDB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-StudyBuddy/Pods-StudyBuddy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSDynamoDB/AWSDynamoDB.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSDynamoDB.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StudyBuddy/Pods-StudyBuddy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4192F9A17A7A8E4437548919 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StudyBuddyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AC2051B46E5567B2C060639 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StudyBuddyUITests/Pods-StudyBuddyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D25DFFDF4A2EA45E406C5570 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StudyBuddyTests/Pods-StudyBuddyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5FDFBA09587F94A5775702E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StudyBuddy/Pods-StudyBuddy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0B93D27BDA31DFF5C9CB511 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StudyBuddyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEFBB107A95E9BDBA5707683 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StudyBuddyTests/Pods-StudyBuddyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FB2175A01F6DD5B0005C4004 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9DC926C1F6E123500150E05 /* SetEvent.swift in Sources */,
+				B9DC926A1F6E11E000150E05 /* UserList.swift in Sources */,
+				B9DC92691F6E11E000150E05 /* Events.swift in Sources */,
+				B9DC92661F6E109900150E05 /* invokeDynamoDb.swift in Sources */,
 				FB2175AA1F6DD5B0005C4004 /* ViewController.swift in Sources */,
 				FB2175A81F6DD5B0005C4004 /* AppDelegate.swift in Sources */,
 			);
@@ -415,6 +638,7 @@
 		};
 		FB2175CD1F6DD5B0005C4004 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C240DFE05F17D64F79A4200C /* Pods-StudyBuddy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 87546R78Z2;
@@ -428,6 +652,7 @@
 		};
 		FB2175CE1F6DD5B0005C4004 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBE73B52A2164FD73F96DB18 /* Pods-StudyBuddy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 87546R78Z2;
@@ -441,6 +666,7 @@
 		};
 		FB2175D01F6DD5B0005C4004 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF596C758C422478E3EBA88D /* Pods-StudyBuddyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +682,7 @@
 		};
 		FB2175D11F6DD5B0005C4004 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4494ED985E78E9ACE7078DE /* Pods-StudyBuddyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +698,7 @@
 		};
 		FB2175D31F6DD5B0005C4004 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77941D7CAB6665A252BA4774 /* Pods-StudyBuddyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 87546R78Z2;
@@ -485,6 +713,7 @@
 		};
 		FB2175D41F6DD5B0005C4004 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B86B585AE2D95D506326F3AC /* Pods-StudyBuddyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 87546R78Z2;
@@ -516,6 +745,7 @@
 				FB2175CE1F6DD5B0005C4004 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB2175CF1F6DD5B0005C4004 /* Build configuration list for PBXNativeTarget "StudyBuddyTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +754,7 @@
 				FB2175D11F6DD5B0005C4004 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB2175D21F6DD5B0005C4004 /* Build configuration list for PBXNativeTarget "StudyBuddyUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +763,7 @@
 				FB2175D41F6DD5B0005C4004 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
