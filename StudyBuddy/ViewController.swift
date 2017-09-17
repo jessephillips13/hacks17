@@ -53,6 +53,43 @@ class ViewController: UIViewController {
             print("An item was saved.")
         })
     }
+    
+    @IBAction func makeQuery(_ sender: Any) {
+        // 1) Configure the query
+        
+        let queryExpression = AWSDynamoDBQueryExpression()
+        
+        queryExpression.keyConditionExpression = "#class = :class AND #id = :id"
+        
+        //queryExpression.filterExpression = "#author = :author"
+        queryExpression.expressionAttributeNames = [
+            "#class": "class",
+            "#id": "id"
+        ]
+        queryExpression.expressionAttributeValues = [
+            ":class": "cs2800",
+            ":id": "1"
+        ]
+        
+        // 2) Make the query
+        
+        let dynamoDbObjectMapper = AWSDynamoDBObjectMapper.default()
+        
+        dynamoDbObjectMapper.query(Events.self, expression: queryExpression) { (output: AWSDynamoDBPaginatedOutput?, error: Error?) in
+            if error != nil {
+                print("The request failed. Error: \(String(describing: error))")
+            }
+            if output != nil {
+                for event in output!.items {
+                    let eventItem = event as? Events
+                    print("\(eventItem!._id!)")
+                }
+            }
+        }
+    }
+    
+    
+    
 
 
 }
