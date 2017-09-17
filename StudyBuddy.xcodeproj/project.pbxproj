@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		FB2175A81F6DD5B0005C4004 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2175A71F6DD5B0005C4004 /* AppDelegate.swift */; };
-		FB2175AA1F6DD5B0005C4004 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2175A91F6DD5B0005C4004 /* ViewController.swift */; };
+		FB2175AA1F6DD5B0005C4004 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2175A91F6DD5B0005C4004 /* EventViewController.swift */; };
 		FB2175AD1F6DD5B0005C4004 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB2175AB1F6DD5B0005C4004 /* Main.storyboard */; };
 		FB2175AF1F6DD5B0005C4004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB2175AE1F6DD5B0005C4004 /* Assets.xcassets */; };
 		FB2175B21F6DD5B0005C4004 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB2175B01F6DD5B0005C4004 /* LaunchScreen.storyboard */; };
 		FB2175BD1F6DD5B0005C4004 /* StudyBuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2175BC1F6DD5B0005C4004 /* StudyBuddyTests.swift */; };
 		FB2175C81F6DD5B0005C4004 /* StudyBuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2175C71F6DD5B0005C4004 /* StudyBuddyUITests.swift */; };
+		FB2175DE1F6E0C2C005C4004 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2175DD1F6E0C2C005C4004 /* Event.swift */; };
+		FB2175E01F6E11DE005C4004 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2175DF1F6E11DE005C4004 /* EventTableViewCell.swift */; };
+		FB2175E21F6E14DE005C4004 /* EventTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2175E11F6E14DE005C4004 /* EventTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* Begin PBXFileReference section */
 		FB2175A41F6DD5B0005C4004 /* StudyBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB2175A71F6DD5B0005C4004 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FB2175A91F6DD5B0005C4004 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB2175A91F6DD5B0005C4004 /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
 		FB2175AC1F6DD5B0005C4004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB2175AE1F6DD5B0005C4004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB2175B11F6DD5B0005C4004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		FB2175C31F6DD5B0005C4004 /* StudyBuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudyBuddyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB2175C71F6DD5B0005C4004 /* StudyBuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyBuddyUITests.swift; sourceTree = "<group>"; };
 		FB2175C91F6DD5B0005C4004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB2175DD1F6E0C2C005C4004 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Event.swift; path = ../Event.swift; sourceTree = "<group>"; };
+		FB2175DF1F6E11DE005C4004 /* EventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		FB2175E11F6E14DE005C4004 /* EventTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +103,15 @@
 		FB2175A61F6DD5B0005C4004 /* StudyBuddy */ = {
 			isa = PBXGroup;
 			children = (
+				FB2175DD1F6E0C2C005C4004 /* Event.swift */,
 				FB2175A71F6DD5B0005C4004 /* AppDelegate.swift */,
-				FB2175A91F6DD5B0005C4004 /* ViewController.swift */,
+				FB2175A91F6DD5B0005C4004 /* EventViewController.swift */,
+				FB2175E11F6E14DE005C4004 /* EventTableViewController.swift */,
 				FB2175AB1F6DD5B0005C4004 /* Main.storyboard */,
 				FB2175AE1F6DD5B0005C4004 /* Assets.xcassets */,
 				FB2175B01F6DD5B0005C4004 /* LaunchScreen.storyboard */,
 				FB2175B31F6DD5B0005C4004 /* Info.plist */,
+				FB2175DF1F6E11DE005C4004 /* EventTableViewCell.swift */,
 			);
 			path = StudyBuddy;
 			sourceTree = "<group>";
@@ -262,8 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB2175AA1F6DD5B0005C4004 /* ViewController.swift in Sources */,
+				FB2175E01F6E11DE005C4004 /* EventTableViewCell.swift in Sources */,
+				FB2175DE1F6E0C2C005C4004 /* Event.swift in Sources */,
+				FB2175AA1F6DD5B0005C4004 /* EventViewController.swift in Sources */,
 				FB2175A81F6DD5B0005C4004 /* AppDelegate.swift in Sources */,
+				FB2175E21F6E14DE005C4004 /* EventTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +528,7 @@
 				FB2175CE1F6DD5B0005C4004 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB2175CF1F6DD5B0005C4004 /* Build configuration list for PBXNativeTarget "StudyBuddyTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +537,7 @@
 				FB2175D11F6DD5B0005C4004 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB2175D21F6DD5B0005C4004 /* Build configuration list for PBXNativeTarget "StudyBuddyUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +546,7 @@
 				FB2175D41F6DD5B0005C4004 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
